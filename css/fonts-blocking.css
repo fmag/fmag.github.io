@@ -1,0 +1,128 @@
+/*
+
+This is custom css, not compiled from Sass, and it is included in our code via
+https://github.com/typekit/webfontloader - so that we can load these in a smart
+way that doesn't impede pageload
+
+These fonts are loaded immediately when the DOM starts loading, potentially
+blocking other resources from loading, but also preventing FOUT or blank text.
+We decided splitting this was necessary because we are loading so many custom
+fonts.
+
+*/
+
+/**
+ * Regular Fonts
+ */
+@font-face {
+  font-family: 'gordita';
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Regular.eot');
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Regular.eot?#iefix') format('embedded-opentype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Regular.woff2') format('woff2'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Regular.woff') format('woff'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Regular.ttf') format('truetype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Regular.svg#Gordita-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gordita';
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Light.eot');
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Light.eot?#iefix') format('embedded-opentype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Light.woff2') format('woff2'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Light.woff') format('woff'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Light.ttf') format('truetype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Light.svg#Gordita-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gordita';
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Medium.eot');
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Medium.eot?#iefix') format('embedded-opentype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Medium.woff2') format('woff2'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Medium.woff') format('woff'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Medium.ttf') format('truetype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-Medium.svg#Gordita-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/**
+ * Italic Fonts
+ */
+@font-face {
+  font-family: 'gordita';
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-LightItalic.eot');
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-LightItalic.woff2') format('woff2'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-LightItalic.woff') format('woff'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-LightItalic.ttf') format('truetype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-LightItalic.svg#Gordita-Medium') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'gordita';
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-RegularItalic.eot');
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-RegularItalic.eot?#iefix') format('embedded-opentype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-RegularItalic.woff2') format('woff2'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-RegularItalic.woff') format('woff'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-RegularItalic.ttf') format('truetype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-RegularItalic.svg#Gordita-Medium') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'gordita';
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-MediumItalic.eot');
+  src: url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-MediumItalic.woff2') format('woff2'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-MediumItalic.woff') format('woff'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-MediumItalic.ttf') format('truetype'),
+      url('https://fonts.luna1.co/gordita/hinted/hinted-Gordita-MediumItalic.svg#Gordita-Medium') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+
+
+/**
+ * TODO: REMOVE
+ */
+@font-face {
+  font-family: "proxima-nova";
+  src: url("https://fonts.luna1.co/proxima-nova/ProximaNova-RegWeb.eot");
+  src: url("https://fonts.luna1.co/proxima-nova/ProximaNova-RegWeb.eot#iefix") format("embedded-opentype"),
+       url("https://fonts.luna1.co/proxima-nova/ProximaNova-RegWeb.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "haptik";
+  src: url("https://fonts.luna1.co/haptik/GT-Haptik-Regular.eot");
+  src: url("https://fonts.luna1.co/haptik/GT-Haptik-Regular.eot#iefix") format("embedded-opentype"),
+       url("https://fonts.luna1.co/haptik/GT-Haptik-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "asanaIcons";
+  src: url("https://fonts.luna1.co/icons/asanaIcons.eot");
+  src: url("https://fonts.luna1.co/icons/asanaIcons.eot#iefix") format("embedded-opentype"),
+       url("https://fonts.luna1.co/icons/asanaIcons.woff") format("woff");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "haptik";
+  src: url("https://s3.amazonaws.com/asanafonts/haptik/GT-Haptik-Light.eot");
+  src: url("https://s3.amazonaws.com/asanafonts/haptik/GT-Haptik-Light.eot#iefix") format("embedded-opentype"),
+       url("https://s3.amazonaws.com/asanafonts/haptik/GT-Haptik-Light.woff") format("woff");
+  font-weight: 200;
+}

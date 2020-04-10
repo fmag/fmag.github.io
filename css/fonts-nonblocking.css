@@ -1,0 +1,26 @@
+/*
+
+This is custom css, not compiled from Sass, and it is included in our code via
+https://github.com/typekit/webfontloader - so that we can load these in a smart
+way that doesn't impede pageload
+
+These fonts are loaded after the DOM is ready, and may result in a FOUT or blank
+text, depending on  how we specify our CSS
+
+*/
+
+/*
+//
+// Haptik
+// =============================================================================
+// .eot is for IE9 Compat Modes
+// .eot?#iefix is for IE6-IE8
+// .woff is for modern Browsers
+*/
+
+@font-face {
+    font-family: "proxima-nova";
+    src: url("https://fonts.luna1.co/proxima-nova/ProximaNova-SboldWeb.eot");
+    src: url("https://fonts.luna1.co/proxima-nova/ProximaNova-SboldWeb.eot#iefix") format("embedded-opentype"),
+    url("https://fonts.luna1.co/proxima-nova/ProximaNova-SboldWeb.woff") format("woff");
+    font-weight: 600; }
