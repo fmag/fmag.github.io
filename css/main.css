@@ -1153,6 +1153,63 @@ form.mktoForm.marketing-embed-form .mktoButtonRow button.-mobile-full.mktoButton
     width: calc(100% - 128px)
 }
 
+.how-it-works-block{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.step-block, .step-no{
+    width: 20%;
+    float: left;
+    position: relative;
+}
+.step-block img{
+
+}
+.step-block .step-info{
+    text-align: left;
+}
+
+.step-block .step-info.first-row{
+    padding-top: 75px;
+}
+
+.step-block .step-info .title{
+    font-weight: 500;
+}
+.clearfix{
+    clear: both;
+    overflow: hidden;
+}
+.step-no{
+    position: relative;
+}
+
+.how-it-works-block .step-no .circle-no{
+    width: 45px;
+    height: 45px;
+    box-shadow: 0 4px 11px 2px rgba(31, 121, 230, 0.2);
+    background-image: linear-gradient(131deg, #7eb0ff -10%, #2178ff 84%);
+    display: inline-block;
+    color: #fff;
+    line-height: 2.7;
+    border-radius: 30px;
+}
+
+.how-it-works-block .step-no .line{
+    width: 100%;
+    height: 2px;
+    border: 1px solid #7eb0ff;
+    position: absolute;
+    top: 22px;
+    left: 58.2%;
+}
+.siteFooter{
+    /*position: absolute !important;
+    width: 100%;
+    bottom: 0;*/
+}
+
 @media (max-width:48em) {
     .-standard.customerMarquee-header,
     .-wide.customerMarquee-header,
@@ -23041,7 +23098,7 @@ form.mktoForm.marketing-embed-form .mktoButtonRow .narrowCtaBanner button.mktoBu
 }
 
 .sectionBuilder.-first {
-    padding-top: 80px
+    padding-top: 80px !important;
 }
 
 @media (min-width:60em) {
