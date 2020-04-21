@@ -191,7 +191,7 @@ input {
     color: #2178ff;
 }
 .theme-color{
-    color:#2f537f;
+    color:#2f537f !important;
 }
 
 button,
