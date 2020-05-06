@@ -65,9 +65,26 @@ pre {
     font-size: 1em
 }
 
+.card-shadow{
+    box-shadow: 0 5px 12px 0 rgba(34,43,55,.1);
+    padding: 20px 20px;
+    width: 49%;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+.margin-left-2{
+    margin-left: 2%; 
+}
+.margin-auto{
+    margin: 0 auto;
+}
+
 a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects
+}
+.underline{
+    text-decoration: underline;
 }
 
 .siteHeader__row{

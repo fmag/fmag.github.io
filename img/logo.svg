@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="44" viewBox="0 0 230 44">
+    <g fill="none" fill-rule="evenodd" transform="translate(-1 -9)">
+        <text fill="#404A60" font-family="TrebuchetMS, Trebuchet MS" font-size="46" letter-spacing="1.38">
+            <tspan x="0" y="43">flowmagic</tspan>
+        </text>
+        <circle cx="227" cy="39" r="4" fill="#007CDA"/>
+    </g>
+</svg>
