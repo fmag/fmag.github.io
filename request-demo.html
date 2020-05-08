@@ -426,37 +426,45 @@
                   <div class="form-html" data-component="text">
                      <p class="form-description">We are elated that you would like to have a demo of Flowmagic. It will be an absolute pleasure for us to showcase our capabilities to you. Please share your contact details below and we will get in touch with you shortly.</p>
                    </div>
-                   <div class="row">
-                      <div class="form-line col-small-6 col-medium-6 col-xlarge-6">
-                          <div class="form-input-wide">
-                              <input type="text" name="name" class="form-textbox col-xlarge-12 width-100 custom-input custom-input" value="" placeholder="Name" required>
+                   <form target="_blank" action="https://formsubmit.co/hello@flowmagic.io" method="POST">
+                     <div class="row">
+                         <div class="form-line col-small-6 col-medium-6 col-xlarge-6">
+                             <div class="form-input-wide">
+                                 <input type="text" name="name" class="form-textbox col-xlarge-12 width-100 custom-input custom-input" placeholder="Name" required>
+                              </div>
+                         </div>
+                          <div class="form-line col-small-6 col-medium-6 col-xlarge-6">
+                             <div class="form-input-wide">
+                              <input type="email" name="email" class="form-textbox col-xlarge-12 width-100 custom-input" placeholder="Official Email" required>
+                              </div>
                            </div>
-                      </div>
-                       <div class="form-line col-small-6 col-medium-6 col-xlarge-6">
-                          <div class="form-input-wide">
-                           <input type="text" name="email" class="form-textbox col-xlarge-12 width-100 custom-input" value="" placeholder="Official Email" required>
+                           <div class="form-line col-small-6 col-medium-6 col-xlarge-6">
+                             <div class="form-input-wide">
+                              <input pattern="[789][0-9]{9}" type="text" name="mobile" class="form-textbox col-xlarge-12 width-100 custom-input" placeholder="Phone No" required>
+                              </div>
                            </div>
-                        </div>
-                        <div class="form-line col-small-6 col-medium-6 col-xlarge-6">
-                          <div class="form-input-wide">
-                           <input type="text" name="name" class="form-textbox col-xlarge-12 width-100 custom-input" value="" placeholder="Phone No" required>
+                           <div class="form-line col-small-6 col-medium-6 col-xlarge-6">
+                             <div class="form-input-wide">
+                              <select class="form-textbox col-xlarge-12 width-100 custom-input" name="no_employee">
+                                 <option value="" disabled selected>No. of Employees</option>
+                                 <option>1-20</option>
+                                 <option>20-100</option>
+                                 <option>100-500</option>
+                                 <option>500+</option>
+                              </select>
+                              <!-- <input type="text" name="name" class="form-textbox col-xlarge-12 width-100 custom-input" value="" placeholder="No. of Employees" required> -->
+                              </div>
                            </div>
-                        </div>
-                        <div class="form-line col-small-6 col-medium-6 col-xlarge-6">
-                          <div class="form-input-wide">
-                           <input type="text" name="name" class="form-textbox col-xlarge-12 width-100 custom-input" value="" placeholder="No. of Employees" required>
+                           <div class="form-line col-small-12 col-medium-12 col-xlarge-12">
+                              <div class="form-input-wide">
+                                 <textarea class="form-textarea col-xlarge-12 width-100 custom-textarea" name="Comments" cols="40" rows="6" placeholder="How can we help you"></textarea>
+                              </div>
                            </div>
-                        </div>
-                        <div class="form-line col-small-12 col-medium-12 col-xlarge-12">
-                           <div class="form-input-wide">
-                              <textarea class="form-textarea col-xlarge-12 width-100 custom-textarea" name="Comments" cols="40" rows="6" placeholder="Your Message"></textarea>
+                           <div class="form-line col-small-12 col-medium-12 col-xlarge-12">
+                              <button type="submit" class="button col-small-2 col-medium-2 col-xlarge-2">Submit</button>
                            </div>
-                        </div>
-                        <div class="form-line col-small-12 col-medium-12 col-xlarge-12">
-
-                           <a class="button col-small-2 col-medium-2 col-xlarge-2">Submit</a>
-                        </div>
                      </div>
+                  </form>
                </div>
                <div class="-xsmall-first col-small-6 col-xlarge-5 col-xlarge-offset-1 -spacing-3-mobile contact-info text-center">
                   <img class="lazyImage" alt="" src="./img/demo.svg" width="350px">

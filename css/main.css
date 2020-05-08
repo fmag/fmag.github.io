@@ -34258,6 +34258,7 @@ svg:not(:root) {
     background-color: #f3f3f5;
     border: 1px;
     outline: none;
+    padding-left: 10px;
 }
 
 .contact-page .form-description{
