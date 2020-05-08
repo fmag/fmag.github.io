@@ -72,6 +72,12 @@ pre {
     /*margin-bottom: 25px;*/
     border-radius: 4px;
 }
+.card-content{
+    font-size: 14px;
+    display: inline-block;
+    color: #848f99;
+    padding-top: 5px;
+}
 .margin-left-2{
     margin-left: 2%; 
 }
@@ -90,6 +96,45 @@ pre {
     line-height: 1.5;
     padding-bottom: 12px;
 }
+.sub-para{
+    font-size: 14px;
+    line-height: 1.5;
+    padding-top: 5px;
+    padding-left: 18px;
+}
+.inner-para{
+    margin-bottom: 0px;
+    padding-left: 30px; 
+    padding-bottom: 4px;
+}
+
+.card-shadow-title{
+   margin-bottom: 0px;
+   color:#47494a; 
+}
+
+.card-shadow-content{
+    font-size: 14px;
+    display: inline-block;
+    color: #848f99;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+
+.margin-top-50{
+    margin-top: 50px;
+}
+
+.logo-img{
+    width: 115px;
+}
+
+
 
 a {
     background-color: transparent;
