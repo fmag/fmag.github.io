@@ -34259,6 +34259,31 @@ svg:not(:root) {
     border: 1px;
     outline: none;
     padding-left: 10px;
+    color: #757575;
+}
+.form-loader{
+    display: none;
+}
+
+.form-success-msg{
+    background: #458a45;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 14px;
+    position: absolute;
+    top: 23px;
+    right: 19%;
+    display: none;
+}
+.form-error-msg{
+    background: #b11212;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 14px;
+    position: absolute;
+    top: 23px;
+    right: 19%;
+    display: none;
 }
 
 .contact-page .form-description{
