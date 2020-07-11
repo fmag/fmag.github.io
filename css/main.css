@@ -1193,7 +1193,7 @@ form.mktoForm.marketing-embed-form .mktoButtonRow button.-mobile-full.mktoButton
 .blog-nav{
     display: inline-block;
 }
-.blog-nav:first-child{
+.blog-nav:nth-child(odd){
     padding-right: 20px;
 }
 
@@ -27005,8 +27005,11 @@ html.is-logged-in .sectionBuilder-hero-button.visible-logged-in.visible-device-m
     width: 100%;
     z-index: 900;
     box-shadow: none;
-    top: 0;
+    top: 0px;
     position: fixed
+}
+.display-block{
+    display: block !important
 }
 
 .siteHeader.-dropdown-active .siteHeader__row,
@@ -27354,7 +27357,9 @@ html.is-logged-in .sectionBuilder-hero-button.visible-logged-in.visible-device-m
     z-index: 8;
     /*transform: translateX(-50%);*/
     -ms-overflow-style: none;
-    scrollbar-width: none
+    scrollbar-width: none;
+    /*bottom: 20px;*/
+    /*top: 110px;*/
 }
 
 .siteHeader .navigation__dropdown::-webkit-scrollbar {
@@ -27835,9 +27840,9 @@ html.is-logged-in .sectionBuilder-hero-button.visible-logged-in.visible-device-m
 
 .siteHeader .navigation__dropdown__footer {
     z-index: 10;
-    background: #fbfdfe;
+    /*background: #fbfdfe;*/
     width: 100%;
-    border-top: 1px solid #e0e6e8;
+    /*border-top: 1px solid #e0e6e8;*/
     padding: 0 20px;
     height: 45px;
     position: absolute;
@@ -37988,6 +37993,35 @@ screen and (-ms-high-contrast:active) and (min-width:48em) {
     cursor: auto !important;
     text-decoration: none;
     border-bottom: 0px !important;
+}
+.problem-solve-section .card-shadow:nth-child(even) {
+    margin-left: 2%;
+}
+.border-none{
+    border: none !important;
+    padding: 0 !important;
+}
+
+.siteHeaderNotFixed{
+    position: initial !important;
+    margin-top: 48px;
+}
+
+.contact-info .contact-image img{
+    width: 370px;
+}
+
+.contact-info .contact-email-block img{
+    width: 18px;
+}
+
+.contact-info .contact-mobile-block img{
+    width: 15px;
+}
+
+.company-image-block img{
+    width: 554px;
+    height: 387px;
 }
 
 
